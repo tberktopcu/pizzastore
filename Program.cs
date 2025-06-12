@@ -40,11 +40,6 @@ if (app.Environment.IsDevelopment())
   });
 }
 
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<PizzaDb>();
-    db.Database.Migrate();
-}
 
 // 3) use the capability
 app.UseCors(MyAllowSpecificOrigins);
