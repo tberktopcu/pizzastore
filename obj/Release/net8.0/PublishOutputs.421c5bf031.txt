@@ -1,0 +1,17 @@
+/workspaces/Test/PizzaStore/publish/PizzaStore
+/workspaces/Test/PizzaStore/publish/appsettings.Development.json
+/workspaces/Test/PizzaStore/publish/appsettings.json
+/workspaces/Test/PizzaStore/publish/PizzaStore.dll
+/workspaces/Test/PizzaStore/publish/PizzaStore.runtimeconfig.json
+/workspaces/Test/PizzaStore/publish/PizzaStore.pdb
+/workspaces/Test/PizzaStore/publish/Microsoft.EntityFrameworkCore.dll
+/workspaces/Test/PizzaStore/publish/Microsoft.EntityFrameworkCore.Abstractions.dll
+/workspaces/Test/PizzaStore/publish/Microsoft.EntityFrameworkCore.InMemory.dll
+/workspaces/Test/PizzaStore/publish/Microsoft.EntityFrameworkCore.Relational.dll
+/workspaces/Test/PizzaStore/publish/Microsoft.OpenApi.dll
+/workspaces/Test/PizzaStore/publish/Npgsql.dll
+/workspaces/Test/PizzaStore/publish/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/workspaces/Test/PizzaStore/publish/Swashbuckle.AspNetCore.Swagger.dll
+/workspaces/Test/PizzaStore/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/workspaces/Test/PizzaStore/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+/workspaces/Test/PizzaStore/publish/PizzaStore.deps.json
