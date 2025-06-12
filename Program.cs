@@ -40,7 +40,6 @@ if (app.Environment.IsDevelopment())
   });
 }
 
-
 // 3) use the capability
 app.UseCors(MyAllowSpecificOrigins);
 
