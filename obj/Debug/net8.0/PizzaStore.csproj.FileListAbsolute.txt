@@ -209,3 +209,8 @@ C:/Users/tahir/OneDrive/Desktop/Test/PizzaStore/obj/Debug/net8.0/refint/PizzaSto
 C:/Users/tahir/OneDrive/Desktop/Test/PizzaStore/obj/Debug/net8.0/PizzaStore.pdb
 C:/Users/tahir/OneDrive/Desktop/Test/PizzaStore/obj/Debug/net8.0/PizzaStore.genruntimeconfig.cache
 C:/Users/tahir/OneDrive/Desktop/Test/PizzaStore/obj/Debug/net8.0/ref/PizzaStore.dll
+/workspaces/Test/PizzaStore/bin/Debug/net8.0/publish/web.config
+/workspaces/Test/PizzaStore/bin/Debug/net8.0/publish/appsettings.Development.json
+/workspaces/Test/PizzaStore/bin/Debug/net8.0/publish/appsettings.json
+/workspaces/Test/PizzaStore/bin/Debug/net8.0/publish/PizzaStore.deps.json
+/workspaces/Test/PizzaStore/bin/Debug/net8.0/publish/PizzaStore.runtimeconfig.json
