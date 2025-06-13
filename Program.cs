@@ -6,6 +6,9 @@ using PizzaStore.Models;
 var builder = WebApplication.CreateBuilder(args);
 var optionsBuilder = builder.Configuration.GetConnectionString("DefaultConnection");
 
+var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger("ConnectionLogger");
+logger.LogInformation("Connection string: {ConnectionString}", optionsBuilder);
+
 builder.Services.AddDbContext<PizzaDb>(options =>
     options.UseNpgsql(optionsBuilder));
 builder.Services.AddEndpointsApiExplorer();
@@ -13,6 +16,8 @@ builder.Services.AddSwaggerGen(c =>
 {
   c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pizzas API", Description = "Pizza pizza", Version = "v1" });
 });
+
+
 // 1) define a unique string
 string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
