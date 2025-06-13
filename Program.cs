@@ -23,10 +23,11 @@ string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins,
-      builder =>
+      policy =>
       {
-          builder.WithOrigins(
-            "http://example.com", "*");
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
       });
 });
 
