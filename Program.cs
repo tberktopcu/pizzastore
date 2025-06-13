@@ -4,8 +4,6 @@ using Microsoft.OpenApi.Models;
 using PizzaStore.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("pizzas") ?? "Data Source=pizzas.db";
-
 var optionsBuilder = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<PizzaDb>(options =>
@@ -32,14 +30,11 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-  app.UseSwagger();
-  app.UseSwaggerUI(c =>
-  {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pizzas API V1");
-  });
-}
+  c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pizzas API V1");
+});
 
 // 3) use the capability
 app.UseCors(MyAllowSpecificOrigins);
